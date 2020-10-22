@@ -1,0 +1,11 @@
+n = int(input())
+count = 0
+while n > 0:
+    n = n//10
+    count = count + 1
+print(count)
+
+# 123/10
+# 12/10
+# 1/10
+# 0
